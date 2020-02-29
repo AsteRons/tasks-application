@@ -1,4 +1,8 @@
 package com.therealdanvega.tasks.service;
 
-public class TaskService {
+import com.therealdanvega.tasks.domain.Task;
+
+public interface TaskService {
+
+    Iterable<Task> list();
 }
