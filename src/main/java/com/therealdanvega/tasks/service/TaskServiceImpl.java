@@ -3,7 +3,9 @@ package com.therealdanvega.tasks.service;
 
 import com.therealdanvega.tasks.domain.Task;
 import com.therealdanvega.tasks.repository.TaskRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TaskServiceImpl implements TaskService {
 
     private TaskRepository taskRepository;
