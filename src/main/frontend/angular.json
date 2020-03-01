@@ -24,7 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "../node_modules/bootstrap/css/bootstrap.min.css",
+                {
+                    "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+                },
+
               "src/styles.css"
             ],
             "scripts": []
@@ -124,6 +127,6 @@
   },
   "defaultProject": "frontend",
   "cli": {
-    "analytics": "01dae2c2-826a-4983-98e7-9091bc726263"
+    "analytics": "875336ae-7ed7-46c1-a6ff-434946746349"
   }
 }
